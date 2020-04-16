@@ -1,0 +1,10 @@
+from collections import *
+
+for _ in range(int(input())):
+    input()
+    de= deque(map(int, input().split()))
+    result="Yes"
+    if max(de) not in (de[0],de[-1]):
+        result="No"
+    print(result)
+
