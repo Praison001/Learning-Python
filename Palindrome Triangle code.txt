@@ -1,0 +1,18 @@
+To get output as below:
+1
+121
+12321
+1234321
+
+for i in range(1,int(input())+1): 
+    print(((10**i-1)//9)**2)
+
+-----------------------------------------------
+for constraint N<9, to get output as below:
+1
+22
+333
+4444
+
+for i in range(1,int(input())+1): 
+    print(((10**i-1)//9)*i)
